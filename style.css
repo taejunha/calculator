@@ -4,20 +4,20 @@
 }
 
 .calculator {
-    background-color: #f2f2f2;
+    background-color: #243119;
     padding: 20px;
     max-width: 400px;
-    -webkit-box-direction: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 1px;
+    margin: 0 auto;
+    border: solid 1px #1e2914;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
     margin-top: 40px; 
 }
 
 #output {
-    color: #EEF4ED;
-    width: 400px;
+    color: #2c8d1a;
     padding: 20px;
-    margin: 0 auto;
+    width: 90%;
     font-size: 24px;
     border: none;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
