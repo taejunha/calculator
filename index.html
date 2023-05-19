@@ -9,12 +9,15 @@
     </head>
     <body>
         <div class="calculator">
-            <input type="text" id="output" readonly>
+            <div id="output">
+                <h5></h5>
+                <h3></h3>
+               </div>
             <div class="calc-buttons">
-                <button class="operation">AC</button>
+                <button id="cancel">AC</button>
                 <button class="operation">+/-</button>
                 <button class="operation">÷</button>
-                <button class="operation">DEL</button>
+                <button id="delete">DEL</button>
                 <button class="number">7</button>
                 <button class="number">8</button>
                 <button class="number">9</button>
@@ -28,7 +31,7 @@
                 <button class="number">3</button>
                 <button class="operation">+</button>
                 <button class="number">0</button>
-                <button class="operation">.</button>
+                <button class="operation" id="decimal">.</button>
                 <button class="operation">=</button>
             </div>
         <script src="index.js"></script>

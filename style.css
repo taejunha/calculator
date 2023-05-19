@@ -3,6 +3,35 @@
     font-family: Gotham Rounded, sans-serif;
 }
 
+#display{
+    border-radius: 5px;
+    /* display: none; */
+    /* border: 1px solid yellow; */
+    background-color: #96BE8C;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   }
+   
+h5,h3 {
+    cursor: copy;
+    /* border: 1px solid black; */
+    text-align: end;
+    margin: 20px;
+    user-select: all;
+    /* font-family: poppins; */
+   }
+   h5{
+    /* margin-top: 50px; */
+    color:#96BE8C;
+    font-size: 1.1em;
+   }
+   h3{
+    font-size: 2em;
+   }
+
 .calculator {
     background-color: #243119;
     padding: 20px;
@@ -44,11 +73,11 @@
         font-weight: 300;
     }
 
-    .calc-buttons .operation {
+    .calc-buttons .operation, #cancel, #delete {
         background-color: #629460; 
         }
     
-        .calc-buttons .operation:hover {
+        .calc-buttons .operation:hover, #cancel:hover, #delete:hover {
             background-color: #96BE8C;
         }
 
