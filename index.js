@@ -31,7 +31,7 @@ document.querySelectorAll('.number').forEach(x => {
 })
   
 // Operators
-document.querySelectorAll('.operators').forEach(x => {
+document.querySelectorAll('.operation').forEach(x => {
   x.onclick = () => {
   if (h3.innerHTML != '') {
     h5.innerHTML = h3.innerHTML
